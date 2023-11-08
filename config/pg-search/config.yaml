@@ -1,0 +1,49 @@
+corpus_id: 2
+customer_id: 2906470669
+
+search_title: "ThruThink Help"
+
+enable_source_filters: False
+source: ""
+
+summary_default_language: "eng"
+summary_num_sentences: 3
+summary_num_results: 7
+
+# Define the title of your app to render in the browser tab.
+app_title: "ThruThink Help"
+
+# Hide or show the app header.
+enable_app_header: True
+
+# Hide or show the app footer.
+enable_app_footer: False
+
+# Define the URL the browser will redirect to when the user clicks the logo in the app header.
+app_header_logo_link: "https://app.thruthink.com"
+
+# Define the logo that appears in the app header. Any images you place in your `config_images` directory will be available.
+app_header_logo_src: "images/thruthink_logo.png"
+
+# Describe the logo for improved accessibility.
+app_header_logo_alt: "ThruThink logo"
+
+# Customize the height at which to render the logo. The width will scale proportionately.
+app_header_logo_height: 20
+
+# Switches the mode of the ux to "summary" mode or "search" mode (if not specified defaults to summary mode). When set to "summary", a summary is shown along with references used in the summary. When set to "search", only search results are shown and no calls made to the summarization API.
+ux: "summary"
+
+# Default language for summary response (if not specified defaults to "auto")
+summary_default_language: "eng"
+
+# Number of sentences before and after relevant text segment used for summarization
+summary_num_sentences: 3
+
+# Number of results used for summarization
+summary_num_results: 10
+
+# The name of the summarization prompt in Vectara
+# If you are a Vectara scale customer you can use custom prompts.
+# This field names a custom prompt, otherwise it uses the default for the account.
+summary_prompt_name: vectara-experimental-summary-ext-2023-10-23-med
