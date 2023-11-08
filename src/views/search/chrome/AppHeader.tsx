@@ -44,7 +44,7 @@ export const AppHeader = () => {
             <VuiFlexItem grow={1}>
               <VuiTitle size="xs" align="left">
                 <VuiTextColor color="subdued">
-                  <h1>Sample app</h1>
+                  <h1>ThruThink Help</h1>
                 </VuiTextColor>
               </VuiTitle>
             </VuiFlexItem>
@@ -92,17 +92,17 @@ export const AppHeader = () => {
               <VuiButtonPrimary
                 color="primary"
                 size="m"
-                href="https://console.vectara.com/"
+                href={appHeader.logo.link ?? "https://vectara.com/"}
                 target="_blank"
                 onClick={() => {
                   ReactGA.event({
                     category: "Outbound link",
                     action: "click",
-                    label: "Try Vectara",
+                    label: "Try ThruThink",
                   });
                 }}
               >
-                Try Vectara now
+                Try ThruThink now
               </VuiButtonPrimary>
             </VuiFlexItem>
           </VuiFlexContainer>
