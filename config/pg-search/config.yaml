@@ -3,8 +3,12 @@ customer_id: 2906470669
 
 search_title: "ThruThink Support"
 
-enable_source_filters: False
-source: ""
+enable_source_filters: True
+# whether the "all source" button should be enabled or not (default true)
+all_sources: True
+
+# A comma-separated list of the sources on which users can filter.
+sources: "ThruThink,ThruThink Help,ThruThink Policies,ThruThink QnA,ThruThink Internet"
 
 summary_default_language: "eng"
 summary_num_sentences: 3
