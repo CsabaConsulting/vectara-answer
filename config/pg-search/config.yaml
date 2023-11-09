@@ -1,7 +1,7 @@
 corpus_id: 2
 customer_id: 2906470669
 
-search_title: "ThruThink Help"
+search_title: "ThruThink Support"
 
 enable_source_filters: False
 source: ""
@@ -11,7 +11,7 @@ summary_num_sentences: 3
 summary_num_results: 7
 
 # Define the title of your app to render in the browser tab.
-app_title: "ThruThink Help"
+app_title: "ThruThink Support"
 
 # Hide or show the app header.
 enable_app_header: True
